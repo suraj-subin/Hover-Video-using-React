@@ -1,0 +1,28 @@
+#root {
+  margin: 0 auto;
+}
+.Main-Container {
+  display: flex;
+}
+.container {
+  position: relative;
+}
+.image {
+  width: 350px;
+  height: 264px;
+}
+.middle {
+  width: 350px;
+  height: 264px;
+  display: none;
+}
+.container:hover .middle {
+  display: block;
+  position: absolute;
+  top: 0;
+  transform: scale(1);
+}
+.forever-video {
+  width: 350px;
+  height: 264px;
+}
